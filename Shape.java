@@ -633,8 +633,8 @@ public class Shape{
 	}
 	public Shape() {
 		dropped = false;
-		//num = (int)(Math.random()*5)+1;
-		num = 1;
+		num = (int)(Math.random()*5)+1;
+		//num = 1;
 		current = num + 10;
 	}
 	public boolean checkLeftandRight(int a, int b, int[][]grid) {
