@@ -180,7 +180,7 @@ public class Shape{
 		}catch(Exception e) {
 			return;
 		}
-		System.out.println(position);
+		//System.out.println(position);
 		switch(position) {
 			case 1:
 				pivotx = tempx2;
@@ -396,7 +396,7 @@ public class Shape{
 		if(dropped) {
 			return;
 		}
-		System.out.println(position);
+		//	System.out.println(position);
 		try {
 			findCurrentPoint(grid);
 		}catch(Exception e) {
